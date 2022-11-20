@@ -1,0 +1,214 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --primary-text-color: #212121;
+    --black-text-color: #000000;
+    --blue-text-color: #2196F3;
+    --bg-hero-color: #2F303A;
+    --contacts-header-color: #757575;
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --button-focus-color: #188CE8;
+    --bg-team-color: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--primary-text-color);
+    background: var(--primary-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    color: var(--black-text-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-link {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    color: var(--blue-text-color);
+}
+
+.mail-header,
+.tel-header {
+    color: var(--contacts-header-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mail-header:hover, .tel-header:hover,
+.mail-header:focus, .tel-header:focus {
+    color: var(--blue-text-color);
+}
+
+.mail-footer,
+.tel-footer {
+    color: var(--contacts-footer-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.mail-footer:hover, .tel-footer:hover,
+.mail-footer:focus, .tel-footer:focus {
+    color: var(--blue-text-color);
+}
+
+.hero {
+    background-color: var(--bg-hero-color);
+}
+
+.title {
+    color: var(--primary-bg-color);
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.title-button {
+    font-family: 'Roboto';
+    color: var(--primary-bg-color);
+    background-color: var(--blue-text-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.title-button:hover,
+.title-button:focus {
+    background: var(--button-focus-color);
+}
+
+.benefits-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.benefits-item {
+    color: var(--contacts-header-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.features-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background: var(--bg-team-color);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-item {
+    background: var(--primary-bg-color);
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    color: var(--contacts-header-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: var(--bg-hero-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    color: var(--primary-bg-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-button {
+    font-family: 'Roboto';
+    background-color: var(--bg-team-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+    color: var(--primary-bg-color);
+    background: var(--blue-text-color);
+}
+
+.project {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.description {
+    color: var(--contacts-header-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.blue-logo {
+    color: var(--blue-text-color);
+}
