@@ -25,6 +25,13 @@ ul {
     margin: 0;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    outline: 2px dashed #f44336;
+}
+
 .list {
     list-style: none;
 }
@@ -96,6 +103,8 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    padding: 200px auto 30px;
+    /* padding-bottom: 30px; */
 }
 
 .title-button {
