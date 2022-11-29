@@ -18,6 +18,8 @@ body {
     background: var(--primary-bg-color);
 }
 
+/* утиліти */
+
 h1, 
 h2, 
 h3, 
@@ -25,15 +27,6 @@ p,
 ul {
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    outline: 2px dashed #f44336;
 }
 
 .list {
@@ -44,17 +37,25 @@ ul {
     text-decoration: none;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+/* контейнер */
+
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 2px dashed #f44336;
 }
 
-.section.no-padding {
-    padding-top: 0px;
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-list {
     display: flex;
+    margin-left: 93px;
 }
 
 .header-list .item:not(:last-child) {
@@ -88,6 +89,15 @@ ul {
     color: var(--blue-text-color);
 }
 
+.contacts-header {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-header .item + .item {
+    margin-left: 40px;
+}
+
 .mail-header,
 .tel-header {
     color: var(--contacts-header-color);
@@ -95,6 +105,13 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.contacts-header .mail-header,
+.contacts-header .tel-header {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mail-header:hover, .tel-header:hover,
@@ -119,6 +136,15 @@ ul {
 .mail-footer:hover, .tel-footer:hover,
 .mail-footer:focus, .tel-footer:focus {
     color: var(--blue-text-color);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.no-padding {
+    padding-top: 0px;
 }
 
 .hero {
