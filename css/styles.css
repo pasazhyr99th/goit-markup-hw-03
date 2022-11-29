@@ -28,10 +28,11 @@ ul {
 }
 
 .container {
-    width: 1200px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     outline: 2px dashed #f44336;
 }
 
@@ -52,6 +53,14 @@ ul {
     padding-top: 0px;
 }
 
+.header-list {
+    display: flex;
+}
+
+.header-list .item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .header-logo {
     font-family: 'Raleway';
     color: var(--black-text-color);
@@ -62,7 +71,11 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.header-link {
+.header-list .header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--primary-text-color);
 
     font-size: 14px;
