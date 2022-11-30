@@ -46,7 +46,7 @@ ul {
     margin-right: auto;
     margin-left: auto;
 
-    outline: 1px dotted tomato;
+    /* outline: 1px dotted tomato; */
 }
 
 .main-nav {
@@ -255,8 +255,8 @@ ul {
     text-align: center;
 }
 
-.photo{
-    margin-bottom: 30px;
+.name-position {
+    padding: 30px 0;
 }
 
 .name {
@@ -269,8 +269,6 @@ ul {
 }
 
 .position {
-    padding-bottom: 30px;
-
     color: var(--contacts-header-color);
     font-size: 16px;
     font-weight: 400;
@@ -373,8 +371,6 @@ ul {
     flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-
-    /* border: 1px solid var(--border-project-photo); */
 }
 
 .list-projects .item:nth-child(3n) {
@@ -385,7 +381,15 @@ ul {
     margin-bottom: 0;
 }
 
+.content {
+    margin-top: -5px;
+    padding: 20px 24px;
+    border: 1px solid var(--border-project-photo);
+}
+
 .project {
+    margin-bottom: 4px;
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
