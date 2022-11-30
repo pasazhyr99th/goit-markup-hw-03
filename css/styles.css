@@ -132,6 +132,9 @@ ul {
 }
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--bg-hero-color);
     text-align: center;
 }
@@ -178,8 +181,7 @@ ul {
 }
 
 .benefits-box .item {
-    width: 270px;
-    justify-content: center;
+    flex-basis: 270px; 
 }
 
 .benefits-box .item + .item {
